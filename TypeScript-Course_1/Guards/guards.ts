@@ -27,7 +27,6 @@ function handle(res: MyResponce | MyError) {
     }
 }
 
-
 //-------------
 
 type AlertType = "success" | "danger" | "warning"

@@ -10,15 +10,19 @@ class Typescript {
     }
 }
 
-// class Car {
-//     readonly model: string
-//     readonly numberOfWheels: number = 4
-
-//     constructor(theModel: string) {
-//         this.model = theModel
-//     }
-// }
 class Car {
+    readonly model: string
+    readonly numberOfWheels: number = 4
+    readonly using: boolean = true
+
+    constructor(theModel: string, theNumberOfWheels: number, theUsing: boolean) {
+        this.model = theModel
+        this.numberOfWheels = theNumberOfWheels
+        this.using = theUsing
+    }
+}
+
+class Car2 {
     readonly numberOfWheels: number = 4
 
     constructor(readonly model: string) { }
