@@ -10,7 +10,7 @@ class MyResponce {
     result = "response result"
 }
 
-class MyError {
+class MyError { 
     header = "error header"
     message = "error message"
 }
@@ -32,7 +32,7 @@ function handle(res: MyResponce | MyError) {
 type AlertType = "success" | "danger" | "warning"
 
 function setAlertType(type: AlertType) {
-    //.....
+    
 }
 setAlertType("success")
 setAlertType("warning")
