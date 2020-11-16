@@ -2,7 +2,7 @@
 function sayMyName(name: string): void {
     console.log(name)
 }
-sayMyName("Alex")
+sayMyName("Alex") 
 
 
 // Never тип данных(никогда не выполниться)
